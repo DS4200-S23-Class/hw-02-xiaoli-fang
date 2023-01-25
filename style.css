@@ -1,0 +1,63 @@
+/* Styling goes in this file */
+title {
+	font-family: Arial;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 30px
+
+}
+table{text-align: center;}
+
+.mytable{
+	margin: 0 auto;
+	height: 90px;
+	width: 1000px}
+
+th{background-color: lightblue;
+	text-align: center;}
+
+
+h3{
+	text-align: center;
+	font-size: 30px;
+}
+
+h4{
+	text-align: left;
+	font-size: 20px
+}
+
+h5{
+	text-align: left;
+	font-size: 20px
+}
+
+h6{
+	text-align: left;
+	font-size: 20px
+}
+
+
+
+.container{
+	display: flex;
+	flex-direction: row;
+	text-align: center
+}
+
+img{
+	max-width: 50%;
+	max-height: 50%;
+	height:auto;
+	width: auto;
+
+}
+
+
+
+
+
+
