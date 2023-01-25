@@ -51,14 +51,24 @@ h6{
 	font-size: 20px
 }
 
-
-
 .container{
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
 	margin: 15px;
+	justify-content: space-between;
+	flex-direction: row;
 }
+
+
+.item{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 2;
+	align-self: left;
+}
+
+
+
 
 img{
 	object-fit: cover;
@@ -66,7 +76,7 @@ img{
     width: 100%;
 }
  
-.text{
+.level{
 	color: purple;
     text-align: left;
 }
@@ -102,10 +112,6 @@ svg{
 div{
     justify-content: space-evenly;
 }
-
-.level
-
-
 
 
 
